@@ -1,0 +1,34 @@
+{
+  "name": "small-claims-ai",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx scripts/test-flow.ts && tsx scripts/test-paypal.ts && tsx scripts/test-negotiate.ts && tsx scripts/test-mcp.ts",
+    "test:mcp": "tsx scripts/test-mcp.ts",
+    "test:paypal": "tsx scripts/test-paypal.ts",
+    "test:negotiate": "tsx scripts/test-negotiate.ts",
+    "doctor": "tsx scripts/doctor.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^1.2.12",
+    "@ai-sdk/google": "^1.2.22",
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "@paypal/agent-toolkit": "^1.11.0",
+    "ai": "^4.3.19",
+    "next": "^14.2.18",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}
