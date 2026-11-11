@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Small Claims AI: escrow with a judge",
-  description: "PayPal holds the money. Claude hears the dispute. Only the fair share moves.",
+  description: "PayPal holds the money. An AI judge hears the dispute. Only the fair share moves.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

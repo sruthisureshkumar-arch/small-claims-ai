@@ -47,13 +47,13 @@ export default function Home() {
           Escrow with a <em>judge</em>.
         </h1>
         <p className="lede">
-          PayPal holds the money. Claude hears the dispute, weighs the photos and the messages, and rules a fair
+          PayPal holds the money. An AI judge hears the dispute, weighs the photos and the messages, and rules a fair
           split. Only the deserved share ever moves.
         </p>
         <ol className="steps">
           <li><b>1 · Hold.</b> The buyer approves on PayPal. Funds are authorized, not charged.</li>
           <li><b>2 · Dispute.</b> If it goes wrong, both sides submit evidence, photos included.</li>
-          <li><b>3 · Rule.</b> Claude rules a percentage. PayPal captures that share and releases the rest.</li>
+          <li><b>3 · Rule.</b> The AI judge rules a percentage. PayPal captures that share and releases the rest.</li>
         </ol>
       </section>
 
